@@ -1,0 +1,17 @@
+.items-div {
+    width: 90%;
+}
+
+.items-div img {
+    max-width: 100%;
+}
+
+.img-p {
+    opacity: 90%;
+    padding: 5px;
+    width: 55%;
+    margin-top: -50px;
+    background-color: yellow;
+    border-radius: 30px;
+    text-align: center;
+}

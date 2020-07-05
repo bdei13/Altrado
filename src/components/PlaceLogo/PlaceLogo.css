@@ -1,0 +1,38 @@
+.place-parent-div {
+    margin-top: 70px;
+}
+
+.place-p {
+    text-align: center;
+    font-size: calc(10px + 2vw);
+    color: #2E5D6A;
+    margin-bottom: 70px;
+    margin-top: 10px;
+}
+
+.place-imgs {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: row;
+}
+
+.p-img-div {
+    margin: 0 30px;
+    width: 50%;
+    margin-top: 30px
+}
+
+.p-img-div img {
+    max-width: 100%;
+}
+
+@media only screen and (max-width:1000px) {
+    .place-imgs {
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+    }
+}
